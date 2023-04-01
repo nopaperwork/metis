@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="LOG_PATH" value="logs" />
+	<property name="LOG_FILE" value="secure-log" />
+	<timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+	
+	<appender name="SAVE-TO-FILE" class="ch.qos.logback.core.FileAppender">
+		<file>${LOG_PATH}/${LOG_FILE}.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>
+				%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M -%kvp- %msg%n
+			</Pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="map" class="com.talic.cs.wallet.utility.MapAppender">
+		<prefix>test</prefix>
+	</appender>
+
+	<appender name="STD-OUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M -%kvp- %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="MASKED-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/${LOG_FILE}_log-${bySecond}.log</file>
+		<append>true</append>
+		<!-- set immediateFlush to false for much higher logging throughput -->
+		<immediateFlush>true</immediateFlush>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<!-- roll over daily & on size -->
+			<maxFileSize>10MB</maxFileSize>
+			<fileNamePattern>${LOG_PATH}/archived/${LOG_FILE}_%d{dd-MM-yyyy}_%i.log</fileNamePattern>
+			<maxFileSize>100MB</maxFileSize>    
+	       	<maxHistory>60</maxHistory>
+	       	<totalSizeCap>20GB</totalSizeCap>
+		</rollingPolicy>
+		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+		<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+			<layout class="com.talic.cs.wallet.utility.DataMaskingPatternLayout">
+				<maskPattern>\"SSN\"\s*:\s*\"(.*?)\"</maskPattern> <!-- SSN JSON pattern -->
+				<maskPattern>((?!000|666)[0-8][0-9]{2}-(?!00)[0-9]{2}-(?!0000)[0-9]{4})</maskPattern> <!-- SSN -->
+				<maskPattern>\"address\"\s*:\s*\"(.*?)\"</maskPattern> <!-- Address JSON pattern -->
+				<maskPattern>(\d+\.\d+\.\d+\.\d+)</maskPattern> <!-- Ip address IPv4 pattern -->
+				<maskPattern>(\w+@\w+\.\w+)</maskPattern> <!-- Email pattern -->
+				<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %ex{full} - %kvp - %msg%n </pattern>
+			</layout>
+		</encoder>
+	</appender>
+
+<!-- DEV -->
+<!-- appender-ref ref="SAVE-TO-FILE" -->
+<!-- appender-ref ref="MASKED-LOG" -->
+		
+	<root level="debug">
+		<appender-ref ref="STD-OUT" />
+	</root>
+
+</configuration>
