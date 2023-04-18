@@ -1,0 +1,148 @@
+12-01-2023 01:29:00.642 [35m[background-preinit][0;39m [34mINFO [0;39m o.h.validator.internal.util.Version.<clinit> -  -  - HV000001: Hibernate Validator 8.0.0.Final
+12-01-2023 01:29:00.663 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStarting -  -  - Starting MasterApplication using Java 17.0.5 with PID 15961 (/Users/metis/nopaper/BitBucket/backend/nopaperwork-backend/master/target/classes started by metis in /Users/metis/nopaper/BitBucket/backend/nopaperwork-backend/master)
+12-01-2023 01:29:00.663 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStartupProfileInfo -  -  - No active profile set, falling back to 1 default profile: "default"
+12-01-2023 01:29:00.680 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo -  -  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12-01-2023 01:29:00.681 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo -  -  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12-01-2023 01:29:01.007 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected -  -  - Multiple Spring Data modules found, entering strict repository configuration mode
+12-01-2023 01:29:01.007 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12-01-2023 01:29:01.085 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Finished Spring Data repository scanning in 74 ms. Found 16 JPA repository interfaces.
+12-01-2023 01:29:01.094 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected -  -  - Multiple Spring Data modules found, entering strict repository configuration mode
+12-01-2023 01:29:01.095 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12-01-2023 01:29:01.104 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.104 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CityRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.105 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CountryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.105 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CurrencyRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.105 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.DeliveryTermsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.106 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.DepartmentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.106 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.IndustryTypeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.106 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.MarketStrategyRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.106 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.NatureOfBusinessRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.107 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.OrganizationTypeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.107 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.107 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.ProductSpecificationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.108 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.StateRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.108 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.SubCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.108 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.TimeZoneRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.109 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.UnitRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:29:01.109 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+12-01-2023 01:29:01.365 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize -  -  - Tomcat initialized with port(s): 8091 (http)
+12-01-2023 01:29:01.369 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Initializing ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:29:01.369 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log -  -  - Starting service [Tomcat]
+12-01-2023 01:29:01.369 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log -  -  - Starting Servlet engine: [Apache Tomcat/10.1.1]
+12-01-2023 01:29:01.391 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[.[localhost].[/master].log -  -  - Initializing Spring embedded WebApplicationContext
+12-01-2023 01:29:01.391 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext -  -  - Root WebApplicationContext: initialization completed in 710 ms
+12-01-2023 01:29:01.464 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation -  -  - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-01-2023 01:29:01.484 [35m[restartedMain][0;39m [34mINFO [0;39m org.hibernate.Version.logVersion -  -  - HHH000412: Hibernate ORM core version 6.1.5.Final
+12-01-2023 01:29:01.542 [35m[restartedMain][0;39m [31mWARN [0;39m org.hibernate.orm.deprecation.lambda$new$1 -  -  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+12-01-2023 01:29:01.583 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection -  -  - HikariPool-1 - Starting...
+12-01-2023 01:29:02.007 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast -  -  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a1fd2a0
+12-01-2023 01:29:02.008 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection -  -  - HikariPool-1 - Start completed.
+12-01-2023 01:29:02.059 [35m[restartedMain][0;39m [34mINFO [0;39m SQL dialect.logSelectedDialect -  -  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12-01-2023 01:29:02.521 [35m[restartedMain][0;39m [31mWARN [0;39m org.hibernate.orm.deprecation.determineJpaScriptActionSetting -  -  - HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.scripts.action], use [jakarta.persistence.schema-generation.scripts.action] instead
+12-01-2023 01:29:02.534 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService -  -  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-01-2023 01:29:02.538 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory -  -  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-01-2023 01:29:03.039 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor -  -  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12-01-2023 01:29:03.488 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer -  -  - LiveReload server is running on port 35729
+12-01-2023 01:29:03.495 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Starting ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:29:03.503 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start -  -  - Tomcat started on port(s): 8091 (http) with context path '/master'
+12-01-2023 01:29:03.507 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStarted -  -  - Started MasterApplication in 2.966 seconds (process running for 3.212)
+12-01-2023 01:29:07.720 [35m[http-nio-8091-exec-1][0;39m [34mINFO [0;39m o.a.c.c.C.[.[localhost].[/master].log -  -  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12-01-2023 01:29:07.720 [35m[http-nio-8091-exec-1][0;39m [34mINFO [0;39m o.s.web.servlet.DispatcherServlet.initServletBean -  -  - Initializing Servlet 'dispatcherServlet'
+12-01-2023 01:29:07.721 [35m[http-nio-8091-exec-1][0;39m [34mINFO [0;39m o.s.web.servlet.DispatcherServlet.initServletBean -  -  - Completed initialization in 1 ms
+12-01-2023 01:29:07.983 [35m[http-nio-8091-exec-1][0;39m [1;31mERROR[0;39m o.a.c.c.C.[.[.[.[dispatcherServlet].log - java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:94)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:41)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:287)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:261)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:149)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:87)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:837)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:430)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.metis.nopaper.work.master.controller.MasterCacheController$$SpringCGLIB$$0.getCurrencyList(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+ -  - Servlet.service() for servlet [dispatcherServlet] in context with path [/master] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+12-01-2023 01:31:51.802 [35m[File Watcher][0;39m [34mINFO [0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent -  -  - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12-01-2023 01:31:51.810 [35m[Thread-5][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Pausing ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:31:51.810 [35m[Thread-5][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log -  -  - Stopping service [Tomcat]
+12-01-2023 01:31:51.812 [35m[Thread-5][0;39m [34mINFO [0;39m o.a.c.c.C.[.[localhost].[/master].log -  -  - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12-01-2023 01:31:51.814 [35m[Thread-5][0;39m [31mWARN [0;39m o.a.c.loader.WebappClassLoaderBase.log -  -  - The web application [master] appears to have started a thread named [lettuce-nioEventLoop-4-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.*********.5/sun.nio.ch.KQueue.poll(Native Method)
+ java.*********.5/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.*********.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.*********.5/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.*********.5/java.lang.Thread.run(Thread.java:833)
+12-01-2023 01:31:51.816 [35m[Thread-5][0;39m [31mWARN [0;39m o.a.c.loader.WebappClassLoaderBase.log -  -  - The web application [master] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.*********.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.*********.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.*********.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.*********.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.*********.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.*********.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.*********.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.*********.5/java.lang.Thread.run(Thread.java:833)
+12-01-2023 01:31:51.818 [35m[Thread-5][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Stopping ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:31:51.820 [35m[Thread-5][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Destroying ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:31:51.935 [35m[Thread-5][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy -  -  - Closing JPA EntityManagerFactory for persistence unit 'default'
+12-01-2023 01:31:51.937 [35m[Thread-5][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close -  -  - HikariPool-1 - Shutdown initiated...
+12-01-2023 01:31:53.557 [35m[Thread-5][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close -  -  - HikariPool-1 - Shutdown completed.

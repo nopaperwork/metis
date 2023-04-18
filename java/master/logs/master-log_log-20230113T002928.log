@@ -1,0 +1,23 @@
+13-01-2023 00:29:28.213 [35m[background-preinit][0;39m [34mINFO [0;39m o.h.validator.internal.util.Version.<clinit> -  -  - HV000001: Hibernate Validator 8.0.0.Final
+13-01-2023 00:29:28.237 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStarting -  -  - Starting MasterApplication using Java 17.0.5 with PID 73291 (/Users/metis/nopaper/BitBucket/backend/nopaperwork-backend/master/target/classes started by metis in /Users/metis/nopaper/BitBucket/backend/nopaperwork-backend/master)
+13-01-2023 00:29:28.238 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStartupProfileInfo -  -  - No active profile set, falling back to 1 default profile: "default"
+13-01-2023 00:29:28.256 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo -  -  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13-01-2023 00:29:28.257 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo -  -  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13-01-2023 00:29:28.491 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh -  -  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'cacheManager' defined in class path resource [com/metis/nopaper/work/master/RedisConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=redisConfig; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/metis/nopaper/work/master/RedisConfig.class]] for bean 'cacheManager' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=masterWebConfig; factoryMethodName=cacheManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/metis/nopaper/work/master/MasterWebConfig.class]] bound.
+13-01-2023 00:29:28.496 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLogger.logMessage -  -  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+13-01-2023 00:29:28.505 [35m[restartedMain][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report -  -  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'cacheManager', defined in class path resource [com/metis/nopaper/work/master/RedisConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/metis/nopaper/work/master/MasterWebConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

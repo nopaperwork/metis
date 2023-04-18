@@ -1,0 +1,95 @@
+12-01-2023 01:31:53.626 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStarting -  -  - Starting MasterApplication using Java 17.0.5 with PID 15961 (/Users/metis/nopaper/BitBucket/backend/nopaperwork-backend/master/target/classes started by metis in /Users/metis/nopaper/BitBucket/backend/nopaperwork-backend/master)
+12-01-2023 01:31:53.626 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStartupProfileInfo -  -  - No active profile set, falling back to 1 default profile: "default"
+12-01-2023 01:31:53.697 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected -  -  - Multiple Spring Data modules found, entering strict repository configuration mode
+12-01-2023 01:31:53.697 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12-01-2023 01:31:53.709 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Finished Spring Data repository scanning in 11 ms. Found 16 JPA repository interfaces.
+12-01-2023 01:31:53.710 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected -  -  - Multiple Spring Data modules found, entering strict repository configuration mode
+12-01-2023 01:31:53.710 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CityRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CountryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.CurrencyRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.DeliveryTermsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.DepartmentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.713 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.IndustryTypeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.MarketStrategyRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.NatureOfBusinessRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.OrganizationTypeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.ProductSpecificationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.StateRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.SubCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.TimeZoneRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.714 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate -  -  - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.metis.nopaper.work.master.models.repositories.UnitRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+12-01-2023 01:31:53.715 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn -  -  - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+12-01-2023 01:31:53.753 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.initialize -  -  - Tomcat initialized with port(s): 8091 (http)
+12-01-2023 01:31:53.753 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Initializing ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:31:53.753 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log -  -  - Starting service [Tomcat]
+12-01-2023 01:31:53.753 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.catalina.core.StandardEngine.log -  -  - Starting Servlet engine: [Apache Tomcat/10.1.1]
+12-01-2023 01:31:53.759 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.c.c.C.[.[localhost].[/master].log -  -  - Initializing Spring embedded WebApplicationContext
+12-01-2023 01:31:53.759 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext -  -  - Root WebApplicationContext: initialization completed in 131 ms
+12-01-2023 01:31:53.779 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation -  -  - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-01-2023 01:31:53.780 [35m[restartedMain][0;39m [31mWARN [0;39m org.hibernate.orm.deprecation.lambda$new$1 -  -  - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+12-01-2023 01:31:53.784 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection -  -  - HikariPool-2 - Starting...
+12-01-2023 01:31:54.112 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast -  -  - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5fe96dc1
+12-01-2023 01:31:54.113 [35m[restartedMain][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection -  -  - HikariPool-2 - Start completed.
+12-01-2023 01:31:54.148 [35m[restartedMain][0;39m [34mINFO [0;39m SQL dialect.logSelectedDialect -  -  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12-01-2023 01:31:54.288 [35m[restartedMain][0;39m [31mWARN [0;39m org.hibernate.orm.deprecation.determineJpaScriptActionSetting -  -  - HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.scripts.action], use [jakarta.persistence.schema-generation.scripts.action] instead
+12-01-2023 01:31:54.293 [35m[restartedMain][0;39m [34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService -  -  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-01-2023 01:31:54.293 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory -  -  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-01-2023 01:31:54.426 [35m[restartedMain][0;39m [31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor -  -  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12-01-2023 01:31:54.571 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer.startServer -  -  - LiveReload server is running on port 35729
+12-01-2023 01:31:54.574 [35m[restartedMain][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Starting ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:31:54.575 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer.start -  -  - Tomcat started on port(s): 8091 (http) with context path '/master'
+12-01-2023 01:31:54.576 [35m[restartedMain][0;39m [34mINFO [0;39m c.m.n.work.master.MasterApplication.logStarted -  -  - Started MasterApplication in 0.964 seconds (process running for 174.279)
+12-01-2023 01:31:54.578 [35m[restartedMain][0;39m [34mINFO [0;39m o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent -  -  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   GenericCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration unknown cache type (CacheCondition)
+
+   NoOpCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration unknown cache type (CacheCondition)
+
+   SimpleCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration unknown cache type (CacheCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+12-01-2023 01:33:03.135 [35m[File Watcher][0;39m [34mINFO [0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent -  -  - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12-01-2023 01:33:03.140 [35m[Thread-7][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Pausing ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:33:03.141 [35m[Thread-7][0;39m [34mINFO [0;39m o.a.catalina.core.StandardService.log -  -  - Stopping service [Tomcat]
+12-01-2023 01:33:03.144 [35m[Thread-7][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Stopping ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:33:03.145 [35m[Thread-7][0;39m [34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol.log -  -  - Destroying ProtocolHandler ["http-nio-8091"]
+12-01-2023 01:33:03.149 [35m[Thread-7][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy -  -  - Closing JPA EntityManagerFactory for persistence unit 'default'
+12-01-2023 01:33:03.150 [35m[Thread-7][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close -  -  - HikariPool-2 - Shutdown initiated...
+12-01-2023 01:33:04.822 [35m[Thread-7][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close -  -  - HikariPool-2 - Shutdown completed.

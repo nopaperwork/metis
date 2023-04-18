@@ -1,0 +1,6 @@
+package com.metis.nopaper.work.master.enums;
+
+public enum ENatureOfBusiness {
+
+	TRANSPORTER, MANUFACTURER, DISTRIBUTOR, SUPPLIER, IMPORTER, EXPORTER, DEALER, TRADER, CONSULTING, OTHER, SUSTAINABLE, AGGREGATOR
+}

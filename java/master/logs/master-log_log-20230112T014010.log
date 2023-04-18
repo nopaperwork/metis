@@ -1,0 +1,3 @@
+13-01-2023 00:08:29.601 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy -  -  - Closing JPA EntityManagerFactory for persistence unit 'default'
+13-01-2023 00:08:29.607 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close -  -  - HikariPool-1 - Shutdown initiated...
+13-01-2023 00:08:31.147 [35m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close -  -  - HikariPool-1 - Shutdown completed.
